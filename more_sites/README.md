@@ -26,4 +26,4 @@ If you can't find a file in one of the sub directories, it's probably in the `fi
 - check what files have been changed since last commit `git status`
 - prepare file to be commited `git add [file path]`
 - commit changes with message `git commit -m "[message]"`
-- push changes of your current branch `git push origin`
+- push changes of your current branch `git push origin [branch name]`
