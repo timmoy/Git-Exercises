@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <title>INT222_161a18 - Lab02</title>
+   <link rel='stylesheet' href='../../includes/normalize.css' type='text/css' media='screen' />
+   <link rel='stylesheet' href='lab02.css' type='text/css' media='screen' />
+ </head>
+ <body>
+  <div class="labTitle">html & CSS - Lab 2</div>
+  <div class="rowWithCells">
+     <div class="singleCell">
+	 <div class="cellTitle">1. Unordered List Example</div>
+	 <span class="listTitle">My favorite three sports are:</span>
+		<ul>
+             <li>Tennis</li>
+             <li>Bowling</li>
+			 <li>Badminton</li>
+        </ul>
+     </div>
+     <div class="middleCell">
+	 <div class="cellTitle">2. Ordered List Example</div>
+	 <span class="listTitle">My favorite four subjects are:</span>
+        <ol>
+            <li>INT222</li>
+            <li>OOP244</li>
+			<li>IBC233</li>
+            <li>DBS201</li>
+        </ol>
+     </div>
+	 <div class="singleCell">
+	 <div class="cellTitle">3. Definition List Example</div>
+	 <span class="listTitle">The following terms stand for:</span>
+        <dl>
+            <dt>CSS</dt>
+				<dd>Cascading Style Sheets</dd>
+			<dt>HTML</dt>
+				<dd>Hyper Text Markup Language</dd>	
+        </dl>
+     </div>
+   </div>
+   <div class="rowWithCells">
+     <div class="singleCell">
+	 <div class="cellTitle">4. HTML table Example</div>
+        <div class="table4Caption">2 rows x 2 columns</div>
+		<table>
+		   <tr>
+			 <td>Test# 1</td>
+			 <td>17%</td>
+		   </tr>
+		   <tr>
+			 <td>Test# 2</td>
+			 <td>18%</td>
+		   </tr>
+		</table>
+     </div>
+     <div class="middleCell">
+	 <div class="cellTitle">5. HTML table Example</div>
+		<table>
+			<tr>
+				<th rowspan='4'>INT222</th>
+				<th colspan='3'>Tests</th>
+			</tr>
+			<tr>
+				<th>Test</th>
+				<th>% Value</th>
+				<th>Week of</th>
+			</tr>
+			<tr>
+			 <td>Test# 1</td>
+			 <td>17%</td>
+			 <td>Feb 15</td>
+		   </tr>
+		   <tr>
+			 <td>Test# 2</td>
+			 <td>18%</td>
+			 <td>Mar 28</td>
+		   </tr>
+		</table>
+        <div class="table5Caption">4 rows x 4 columns (rowspan - colspan)</div>
+     </div>
+	 <div class="singleCell">
+	 <div class="cellTitle">6. Image Example</div>
+		<div class="picture">
+			<figure><img src="city.png" alt="Picture of a city">
+				<figcaption>Study Week Vacation</figcaption>
+			</figure>
+		</div>
+     </div>
+   </div>
+   <div class="rowWithCells">
+     <div class="singleCell">
+	 <div class="cellTitle">7a. Link to ICT website</div>
+		<div class="cellLink">
+			<a href="https://scs.senecac.on.ca/">ICT website</a>
+		</div>
+     </div>
+     <div class="middleCell">
+	 <div class="cellTitle">7b. Link to Blackboard website</div>
+		<div class="cellLink">
+			<a href="https://my.senecacollege.ca">Blackboard website</a>
+		</div>	
+     </div>
+	 <div class="singleCell">
+	 <div class="cellTitle">7c. Link to Seneca College Website</div>
+		<div class="cellLink">
+			<a href="https://www.senecacollege.ca">Seneca College website</a>
+		</div>
+     </div>
+   </div>
+   <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+ </body>
+</html>

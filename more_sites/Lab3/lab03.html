@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>INT222161_a18 Lab03</title>
+		<script>
+		
+			var e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+			
+			e1 = prompt("Please enter your first name in lower case");
+			e1=e1.substr(0,1).toUpperCase() + e1.substring(1,e1.length);
+			e2 = prompt(e1 + ", please enter an integer from 1 - 9");
+			e3 = prompt("Please enter 5 numbers separated by commas");
+			e4 = prompt("Please enter 3 colours separated by commas");
+			e6 = e3.split(',');
+			e7 = e4.split(',');
+			
+			document.write("<table border=solid>");
+			document.write("<caption>The number in e2 is "+e2+"</caption>");
+			document.write("<tr>");
+				document.write("<td colspan = '5'>Times table for the number "+e2+"</td>");
+			document.write("</tr>");
+
+			for(var ident = 1; ident <= 12; ident++){
+				document.write("<tr>");
+					document.write("<td>"+e2+"</td>");
+					document.write("<td>*</td>");
+					document.write("<td>"+ident+"</td>");
+					document.write("<td>=</td>");								
+					document.write("<td>"+ident*e2+"</td>");
+				document.write("</tr>");
+			}
+				document.write("</table>");
+			
+			e8 = 0;	
+			for(ident = 0; ident < 5; ident++){
+				e8 += eval(e6[ident]);
+			}
+			alert("The total of the numbers entered: " +e8);
+			
+			for(ident = 0; ident < 3; ident++){
+				e9 +=e7[ident] + "\n";
+			}
+			alert("The colours entered were: \n" +e9);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
