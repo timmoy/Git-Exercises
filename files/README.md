@@ -1,5 +1,3 @@
 ### Well hello there!
 
-This directory is meant to hold various files for the exercises.
-
-Switching to a different branch might surprise you!
+This directory holds the files that you should be referencing for Lab1 and Lab2.
