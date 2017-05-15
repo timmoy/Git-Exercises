@@ -78,7 +78,7 @@ figcaption {
 	background-color:#FFFFFF;
 }
 
-.table4Caption{
+.table7Caption{
 	text-decoration:underline;
 	text-align:center;
 	margin:auto;
@@ -122,12 +122,18 @@ td{
 
 .listTitle{
 	display:table;
-	text-align:left;
+	text-align:right;
 	font-weight:bold;
 	text-decoration:underline;
 	margin-top:1em;
 	margin-bottom:1em;
 	margin-left:.3em;
+}
+
+.newClass{
+	display:block;
+	text-align:right;
+	margin:auto;
 }
 
 dl{
